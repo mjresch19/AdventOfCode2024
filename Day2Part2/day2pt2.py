@@ -9,6 +9,7 @@ def read_txt(filename: str):
 
 if __name__ == "__main__":
 
+    #TOOD - finish this problem
     contents = read_txt("Day2Part2/input.txt")
     
     #Clean contents and separate into nested lists O(N^2)
