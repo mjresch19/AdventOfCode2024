@@ -9,7 +9,7 @@ def read_txt(filename: str):
 
 if __name__ == "__main__":
 
-    #TOOD - finish this problem
+    #TOOD - finish this problem by checking if the report is safe
     contents = read_txt("Day2Part2/input.txt")
     
     #Clean contents and separate into nested lists O(N^2)
