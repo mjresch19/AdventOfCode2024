@@ -32,10 +32,6 @@ if __name__ == "__main__":
     for mul in mul_commands:
         mul_indices.append([mul.start(0), mul.end(0)])
 
-    # print(do_indices)
-    # print(dont_indices)
-    # print(mul_indices)
-
     #determine mul commands that are not in do or dont commands
     #We can assume that we start out in an enabled state (do state)
     total = 0
