@@ -20,3 +20,9 @@ if __name__ == "__main__":
         content_list.append(list(contents[i]))
 
     pprint(content_list)
+
+    for row in content_list:
+
+        for cell in row:
+
+            print(cell)
