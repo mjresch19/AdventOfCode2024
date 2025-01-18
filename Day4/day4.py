@@ -25,4 +25,4 @@ if __name__ == "__main__":
 
         for cell in row:
 
-            print(cell)
+            print(cell, "cell")
